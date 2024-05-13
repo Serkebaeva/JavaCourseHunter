@@ -1,1 +1,1 @@
-# Java_Course_Hunter
+# Java_coursehunter
