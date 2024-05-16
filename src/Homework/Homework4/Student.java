@@ -1,7 +1,7 @@
 package Homework.Homework4;
 
 public class Student {
-    static int counter;
+    static int counter = 1;
     String name;
     String surname;
     int studyYear;
@@ -45,5 +45,8 @@ class StudentTest {
 
         Student st3 = new Student();
         st3.getStudent("Anna", "Lana", 2024, 5, 4,5,5,5,5,4,4,3);
+
+        int totalCreatedStudents = Student.counter - 1;
+        System.out.println("Total created students: " + totalCreatedStudents);
     }
 }
