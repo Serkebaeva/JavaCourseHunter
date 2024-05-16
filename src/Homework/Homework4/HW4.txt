@@ -1,0 +1,41 @@
+    private int studentId;
+    private String firstName;
+    private String lastName;
+    private int year;
+    private double avgMath;
+    private double avgEconomics;
+    private double avgLanguage;
+
+    public Student(int studentId, String firstName, String lastName, int year, double avgMath, double avgEconomics, double avgLanguage) {
+        this.studentId = studentId;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.year = year;
+        this.avgMath = avgMath;
+        this.avgEconomics = avgEconomics;
+        this.avgLanguage = avgLanguage;
+    }
+
+    public double calculateAverage() {
+        return (avgMath + avgEconomics + avgLanguage) / 3;
+    }
+
+    public String displayInfo() {
+        double average = calculateAverage();
+        return String.format("Student ID: %d, Name: %s %s, Year: %d, Average Grade: %.2f", studentId, firstName, lastName, year, average);
+    }
+}
+
+public class StudentTest {
+    public static void main(String[] args) {
+        Student student1 = new Student(1, "Ivan", "Ivanov", 2023, 4.5, 3.8, 4.2);
+        Student student2 = new Student(2, "Anna", "Petrova", 2023, 4.2, 4.6, 4.8);
+        Student student3 = new Student(3, "Petr", "Sidorov", 2023, 3.9, 4.1, 4.0);
+
+        Student[] students = {student1, student2, student3};
+
+        for (Student student : students) {
+            System.out.println(student.displayInfo());
+        }
+    }
+}

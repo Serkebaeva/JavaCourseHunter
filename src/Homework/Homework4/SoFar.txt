@@ -1,0 +1,42 @@
+package Homework.Homework4;
+
+public class Student {
+    static int counter;
+    String name;
+    String surname;
+    int studyYear;
+    int studentCardNumber;
+    double mathScore1;
+    double mathScore2;
+    double mathScore3;
+
+    getStudent (String name2, String surname2, int studyYear2){
+        studentCardNumber = counter++;
+        name = name2;
+        surname = surname2;
+        studyYear = studyYear2;
+        System.out.println("Student Name " + name +" Surname "+ surname+ " is created. Study Year - "
+                +studyYear+ " Student Card Number - "+studentCardNumber);
+
+    }
+
+    public class StudentTest() {
+        public static void main(String[] args) {
+            Student st1 = new Student();
+            st1.getStudent("Ivan", "Pak", 2);
+
+        }
+    }
+
+    }
+
+/*    class getAvgScore {
+        public static int getMedium(double a, double b, double c) {
+            a = Student.mathScore1;
+            b = Student.mathScore2;
+            c = Student.mathScore3;
+            return (int) ((a+b+c)/3);
+        }
+
+}*/
+
