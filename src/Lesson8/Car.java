@@ -1,3 +1,4 @@
+/*
 package Lesson8;
 
 public class Car {
@@ -15,3 +16,4 @@ public static void main(String[] args) {
     h1.c.engine = "v8";
     h1.c.color = "blue";
 }
+*/
