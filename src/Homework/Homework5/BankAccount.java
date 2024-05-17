@@ -54,6 +54,17 @@ class BankAccountTest {
         bA2.snyatieSoScheta(30);
         System.out.println("Balans izmenen. Obnovlennyi balans: "+  bA2.balans);
         bA2.showInfo();
+
+        System.out.println("--------------------------------------------");
+
+
+        System.out.println("balans = " + bA2.balans);
+        bA2.popolnenieScheta(100);
+        System.out.println("Balans uvelichen. Obnovlennyi balans: "+  bA2.balans );
+        bA2.snyatieSoScheta(50);
+        System.out.println("Balans izmenen. Obnovlennyi balans: "+  bA2.balans);
+        bA2.showInfo();
+
     }
 
 
