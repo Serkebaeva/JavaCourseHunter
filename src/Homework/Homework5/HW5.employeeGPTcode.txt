@@ -47,15 +47,7 @@ class EmployeeTest {
         // Double the salary
         e1.salaryGrowToDouble();
 
-        System.out.println("-----------------------------------------------------");
-
-        Employee e2 = new Employee("Lena", "Pani", 25, 30000, "Chief Accountant");
-        e2.showInfoEmployee();
-        e2.salaryGrowToDouble();
-
+        // Show updated employee information
+        e1.showInfoEmployee();
     }
 }
-
-
-
-

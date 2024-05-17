@@ -1,0 +1,47 @@
+package Homework.Homework5;
+
+public class Employee {
+    static int id;
+    String surname;
+    String name;
+    int age;
+    double salary;
+    String department;
+
+    class salaryGrowToDouble(){
+        double growSum(double salary1) {
+            salary1 = salary*2;
+            System.out.println("New doubled salary is: "+ salary);
+            return salary;
+        }
+    }
+
+    void showInfoEmployee(){
+        System.out.println("Employee ID number: "+id);
+        System.out.println("Employee name: "+ name);
+        System.out.println("Employee Surname: "+ this.surname);
+        System.out.println("Employee age: " + age);
+        System.out.println("Employee salary: "+salary);
+    }
+
+
+
+}
+
+class EmployeeTest {
+    public static void main(String[] args) {
+        Employee e1 = new Employee();
+        e1.id = e1.id++;
+        e1.surname = "Jdanov";
+        e1.name = "Ilya";
+        e1.age = 28;
+        e1.salary = 25000;
+        e1.department = "Marketing department";
+        e1.showInfoEmployee();
+        e1.salaryGrowToDouble();
+        System.out.println(e1.salary);
+
+    }
+
+
+}
