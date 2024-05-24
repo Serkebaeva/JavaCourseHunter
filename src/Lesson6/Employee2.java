@@ -30,13 +30,13 @@ public class  Employee2{
 
 class EmployeeTest2{
     public static void main(String[] args) {
-        Employee emp1 = new Employee(1,"Ivanov", 25);
+        Employee2 emp1 = new Employee2(1,"Ivanov", 25);
         System.out.println((emp1.surname));
 
-        Employee emp2 = new Employee("Petrov", 30);
+        Employee2 emp2 = new Employee2("Petrov", 30);
         System.out.println((emp2.department));
 
-        Employee emp3 = new Employee(2,"Sidorov",40, 100.35,"IT");
+        Employee2 emp3 = new Employee2(2,"Sidorov",40, 100.35,"IT");
         System.out.println((emp3.department));
     }
 }
