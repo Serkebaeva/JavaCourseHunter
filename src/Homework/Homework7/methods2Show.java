@@ -14,7 +14,7 @@ public class methods2Show {
 
     }
 
-   public static class showInfoDefault(){
+   public static class showInfoDefault{
        public static void show(Employee7 employeeDefault){
            System.out.println("ID: " + employeeDefault.employeeDefault.id);
            System.out.println("Name: " + employeeDefault.name);

@@ -1,4 +1,3 @@
-/*
 package Lesson8;
 
 public class Car {
@@ -9,11 +8,12 @@ public class Car {
 class Human {
     String name = "Ivan";
     final Car c = new Car();
+
+    public static void main(String[] args) {
+        Human h1 = new Human();
+        h1.c.engine = "v8";
+        h1.c.color = "red";
+    }
 }
 
-public static void main(String[] args) {
-    Human h1 = new Human();
-    h1.c.engine = "v8";
-    h1.c.color = "blue";
-}
-*/
+

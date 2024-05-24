@@ -38,17 +38,16 @@ public class Employee7 {
     public int getAge() {
         return this.employeePrivate.age;
     }
-
-
 }
 
-public static void main(String[] args) {
-    Employee7 employeePrivate = new Employee7("Smith", "John", 30, 50000.0, "IT");
-    methods2Show.showInfoPrivate.show(employeePrivate);
-    System.out.println("===============================================================================");
+class EmployeeTest {
+    public static void main(String[] args) {
+        Employee7 employeePrivate = new Employee7("Smith", "John", 30, 50000.0, "IT");
+        methods2Show.showInfoPrivate.show(employeePrivate);
+        System.out.println("===============================================================================");
 
-    Employee7 employeeDefault = new Employee7("Petrov", "Ivan", 50, 40000.0, "Marketing");
-    methods2Show.showInfoDefault.show(employeeDefault);
-    System.out.println("===============================================================================");
-
+        Employee7 employeeDefault = new Employee7("Petrov", "Ivan", 50, 40000.0, "Marketing");
+        methods2Show.showInfoDefault.show(employeeDefault);
+        System.out.println("===============================================================================");
+    }
 }
