@@ -13,6 +13,8 @@ class Human {
         Human h1 = new Human();
         h1.c.engine = "v8";
         h1.c.color = "red";
+        System.out.println("engine "+h1.c.engine);
+        System.out.println("color "+h1.c.color);
     }
 }
 
