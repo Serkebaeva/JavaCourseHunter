@@ -9,10 +9,10 @@ public class HW9_Answer {
 
     public static void main(String[] args){
         HW9_Answer a1 = new HW9_Answer();
-        abc();
-        abc();
+        abc(); // variables s1 & s2 inside this method not alive, cause these are LOCAL VARIABLES....
+        abc(); // variables s1 & s2 inside this method not alive, cause these are LOCAL VARIABLES....
         String s1 = new String("ABC");
-        abc();
+        abc(); // same here....
         System.out.println(" " + a1 + " "+ s1);
     }
 }
