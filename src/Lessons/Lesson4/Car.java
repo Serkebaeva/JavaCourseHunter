@@ -1,4 +1,4 @@
-package Lesson4;
+package Lessons.Lesson4;
 
 public class Car {
     String color = "red"; // "red" will be used by default...

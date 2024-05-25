@@ -1,4 +1,4 @@
-package Lesson5;
+package Lessons.Lesson5;
 
  // Sozdanie obektov. Ponyatie Construktor. Obyavlenie i vyzov metodov.
 

@@ -1,4 +1,4 @@
-package Lesson8;
+package Lessons.Lesson8;
 
  // "Модификаторы final и static. Понятие КОНСТАНТА"
 
