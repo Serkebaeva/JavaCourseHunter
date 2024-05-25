@@ -31,7 +31,7 @@ class garbageCollectorTest{
         garbageCollector.counter++;
         someObject4.showInfo();
 
-        /// i ta dalee otnositel'no ostal'nyh ob'ektov.....
+        /// i tak dalee otnositel'no ostal'nyh ob'ektov.....
 
     }
 }
