@@ -1,11 +1,11 @@
 package Lessons.Lesson11;
 // REFERENCE DATA TYPES
 public class Student {
-    String name;
-    int course;
-    double grade;
+   public String name;
+    public int course;
+    public int grade;
 
-    Student (String name, int course, double grade) {
+    public Student (String name, int course, int grade) {
         this.name = name;
         this.course = course;
         this.grade = grade;
@@ -23,12 +23,12 @@ public class Student {
     }
 
     public static void main(String[] args){
-        Student st1 = new Student("Ivan", 3, 9.5);
-        Student st2 = new Student("Petr", 1,5.3);
+        Student st1 = new Student("Ivan", 3, 9);
+        Student st2 = new Student("Petr", 1,5);
         swap(st1, st2);
         System.out.println("Print vnutri MAIN: "+st1.name);
 
-        Student st4 = new Student("Oleg", 5, 7.5);
+        Student st4 = new Student("Oleg", 5, 7);
         changeName(st4);
         System.out.println(st4.name);
     }
