@@ -1,9 +1,9 @@
 package Homework.Homework12;
 
 public class Student {
-    String name;
-    int course;
-    double grade;
+   public String name;
+   public int course;
+   public double grade;
 
     Student (String name, int course, double grade) {
         this.name = name;
